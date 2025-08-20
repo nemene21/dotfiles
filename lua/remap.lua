@@ -1,7 +1,7 @@
-
 vim.g.mapleader = " "
+vim.keymap.set("n", "<Space>", "<Nop>")
+vim.opt.timeoutlen = 300
 
--- Copying/pasting to "+
 vim.keymap.set("n", "Y", "\"+y")
 vim.keymap.set("n", "P", "\"+p")
 vim.keymap.set("n", "D", "\"+d")
@@ -47,3 +47,7 @@ vim.api.nvim_create_autocmd("FileType", {
     clike_branch("for")
   end
 })
+
+vim.keymap.set("n", "<leader>o", "o<Esc>k", { noremap = true })
+vim.keymap.set("n", "<leader>O", "O<Esc>j", { noremap = true })
+
