@@ -34,3 +34,16 @@ for _, mode in ipairs({ "n", "i", "v" }) do
 end
 
 vim.keymap.set("n", ";", "A;<Esc>")
+
+local function clike_branch(keyword)
+  vim.keymap.set("i", keyword.."<Tab>", keyword.." () {<CR>}<Esc>kwa")
+end
+
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = {"c", "cpp"},
+  callback = function()
+    clike_branch("if")
+    clike_branch("while")
+    clike_branch("for")
+  end
+})
