@@ -1,4 +1,6 @@
 -- Lazy bootstrap
+vim.opt.termguicolors = true
+
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
   vim.fn.system({
@@ -59,9 +61,16 @@ require("lazy").setup({
 
     end
   }, {
-    'windwp/nvim-autopairs',
+    "windwp/nvim-autopairs",
     event = "InsertEnter",
     config = true
+  }, {
+    "feline-nvim/feline.nvim",
+    config = function ()
+      require('feline').setup()
+    end
+  }, {
+    "nvim-tree/nvim-web-devicons", opts = {}
   }
 }, {})
 
