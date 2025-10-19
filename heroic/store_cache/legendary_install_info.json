@@ -1,0 +1,56 @@
+{
+	"__timestamp": {
+		"3ce838d7a25c49368a22918b56e88f2a": "Mon Oct 13 2025 17:49:11 GMT+0200 (Central European Summer Time)"
+	},
+	"3ce838d7a25c49368a22918b56e88f2a": {
+		"game": {
+			"app_name": "3ce838d7a25c49368a22918b56e88f2a",
+			"title": "The Battle of Polytopia",
+			"version": "2.14.1.14601",
+			"platform_versions": {
+				"Windows": "2.14.1.14601"
+			},
+			"cloud_saves_supported": false,
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"is_dlc": false,
+			"external_activation": null,
+			"launch_options": [],
+			"command_line": null,
+			"owned_dlc": []
+		},
+		"install": {
+			"platform": "Windows",
+			"version": "2.14.1.14601",
+			"disk_size": 234486136,
+			"install_path": "/home/ne_mene/Games/Heroic/TheBattleofPolytopiaACfMZ",
+			"save_path": null,
+			"synced_egl_guid": "",
+			"install_tags": [],
+			"requires_ovt": false,
+			"installed_dlc": []
+		},
+		"manifest": {
+			"size": 18753,
+			"type": "binary",
+			"version": 21,
+			"feature_level": 21,
+			"app_name": "3ce838d7a25c49368a22918b56e88f2a",
+			"launch_exe": "Polytopia.exe",
+			"launch_command": "",
+			"build_version": "2.14.1.14601",
+			"build_id": "0foMWPfXqkOPXsxQLhokuA",
+			"prerequisites": null,
+			"uninstaller": null,
+			"install_tags": [
+				""
+			],
+			"num_files": 64,
+			"num_chunks": 224,
+			"disk_size": 234486136,
+			"download_size": 127601917,
+			"tag_disk_size": [],
+			"tag_download_size": []
+		}
+	}
+}

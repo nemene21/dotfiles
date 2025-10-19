@@ -1,0 +1,293 @@
+{
+  "app_name": "Corydalis",
+  "app_title": "Slime Rancher",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "Corydalis",
+      "asset_id": "Corydalis",
+      "build_version": "1.4.4_Win64_Release_16",
+      "catalog_item_id": "1e38b618d106430db94b474abbfecc16",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "corydalis",
+      "sidecar_rev": 0
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "ageGatings": {},
+    "applicationId": "",
+    "categories": [
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2025-04-30T18:02:03.608Z",
+    "customAttributes": {
+      "CanRunOffline": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "CanSkipKoreanIdVerification": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "FolderName": {
+        "type": "STRING",
+        "value": "SlimeRancher"
+      },
+      "MonitorPresence": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "PresenceID": {
+        "type": "STRING",
+        "value": "corydalis"
+      },
+      "SupportedPlatforms": {
+        "type": "STRING",
+        "value": "Windows,Mac,Win32"
+      },
+      "com.epicgames.app.developerName": {
+        "type": "STRING",
+        "value": "Monomi Park"
+      }
+    },
+    "description": "Slime Rancher",
+    "developer": "Monomi Park",
+    "developerId": "o-zaqwbfdrp3pwhlqsnwvjfsmjdpsj3a",
+    "dlcItemList": [
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2025-04-30T18:02:03.612Z",
+        "description": "DLC 1: Secret Style Pack",
+        "developer": "Monomi Park",
+        "developerId": "o-zaqwbfdrp3pwhlqsnwvjfsmjdpsj3a",
+        "endOfSupport": false,
+        "entitlementName": "a9e59c9f7c544834b56b689ea56cc29e",
+        "entitlementType": "AUDIENCE",
+        "esrbGameRatingValue": "EVERYONE_10_PLUS",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "a9e59c9f7c544834b56b689ea56cc29e",
+        "itemType": "DURABLE",
+        "keyImages": [
+          {
+            "height": 404,
+            "md5": "b87a749a0d84064b54f915548c922b5d",
+            "size": 70396,
+            "type": "ESRB",
+            "uploadedDate": "2020-01-08T22:33:30.079Z",
+            "url": "https://cdn1.epicgames.com/corydalis/item/ESRB_SlimeRancher-842x404-b87a749a0d84064b54f915548c922b5d.jpg",
+            "width": 842
+          }
+        ],
+        "lastModifiedDate": "2025-05-06T21:21:49.692Z",
+        "mainGameItem": {
+          "id": "1e38b618d106430db94b474abbfecc16",
+          "namespace": "corydalis",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "1e38b618d106430db94b474abbfecc16",
+            "namespace": "corydalis",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "corydalis",
+        "releaseInfo": [],
+        "status": "ACTIVE",
+        "title": "DLC 1: Secret Style Pack",
+        "unsearchable": false
+      },
+      {
+        "categories": [
+          {
+            "path": "games"
+          },
+          {
+            "path": "applications"
+          }
+        ],
+        "creationDate": "2019-05-23T18:21:09.873Z",
+        "description": "Slime Rancher DLC1",
+        "developer": "Monomi Park",
+        "developerId": "o-zaqwbfdrp3pwhlqsnwvjfsmjdpsj3a",
+        "endOfSupport": false,
+        "entitlementName": "5aee7f8ef9234753948f55cc30c7b7a3",
+        "entitlementType": "EXECUTABLE",
+        "esrbGameRatingValue": "RATING_PENDING",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "5aee7f8ef9234753948f55cc30c7b7a3",
+        "itemType": "DURABLE",
+        "keyImages": [
+          {
+            "height": 404,
+            "md5": "fce4fa7233ed80170a8e36079d1e1bde",
+            "size": 51194,
+            "type": "ESRB",
+            "uploadedDate": "2019-05-23T18:20:51.254Z",
+            "url": "https://cdn1.epicgames.com/corydalis/item/SlimeRancher-842x404-fce4fa7233ed80170a8e36079d1e1bde.png",
+            "width": 842
+          }
+        ],
+        "lastModifiedDate": "2019-06-17T17:11:29.977Z",
+        "mainGameItem": {
+          "id": "1e38b618d106430db94b474abbfecc16",
+          "namespace": "corydalis",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "1e38b618d106430db94b474abbfecc16",
+            "namespace": "corydalis",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "corydalis",
+        "releaseInfo": [
+          {
+            "appId": "CorydalisDLC1",
+            "compatibleApps": [],
+            "dateAdded": "2019-05-24T00:00:00.000Z",
+            "id": "3b7786fea3b14dad8c4d4c00506544b4",
+            "platform": [
+              "Windows",
+              "Mac",
+              "Win32"
+            ],
+            "releaseNote": "",
+            "versionTitle": ""
+          }
+        ],
+        "status": "ACTIVE",
+        "title": "Slime Rancher DLC1",
+        "unsearchable": false
+      },
+      {
+        "categories": [
+          {
+            "path": "addons"
+          },
+          {
+            "path": "addons/durable"
+          }
+        ],
+        "creationDate": "2025-05-06T21:21:49.112Z",
+        "description": "Slime Rancher: Secret Style Pack",
+        "developer": "Monomi Park",
+        "developerId": "o-zaqwbfdrp3pwhlqsnwvjfsmjdpsj3a",
+        "endOfSupport": false,
+        "entitlementName": "553aa01dec7643109dc2284570e08f7f",
+        "entitlementType": "EXECUTABLE",
+        "id": "553aa01dec7643109dc2284570e08f7f",
+        "itemType": "DURABLE",
+        "keyImages": [
+          {
+            "alt": "Slime Rancher: Secret Style Pack-93072",
+            "height": 1440,
+            "md5": "87f4034d74fd15d2ad2915177f54ecfe",
+            "size": 465504,
+            "type": "DieselGameBox",
+            "uploadedDate": "2020-02-28T14:05:56.681Z",
+            "url": "https://cdn1.epicgames.com/corydalis/offer/SecretStyleDLC-Keyart_Wishlist-Landscape-2560x1440-87f4034d74fd15d2ad2915177f54ecfe.jpg",
+            "width": 2560
+          },
+          {
+            "alt": "Slime Rancher: Secret Style Pack-832456",
+            "height": 1600,
+            "md5": "348a0fb9243effa41aed91f32038482f",
+            "size": 1703741,
+            "type": "DieselGameBoxTall",
+            "uploadedDate": "2025-04-10T16:44:09.241Z",
+            "url": "https://cdn1.epicgames.com/offer/corydalis/SecretStylePack-SR_1200x1600_1200x1600-348a0fb9243effa41aed91f32038482f",
+            "width": 1200
+          }
+        ],
+        "lastModifiedDate": "2025-05-06T21:21:49.112Z",
+        "mainGameItem": {
+          "id": "1e38b618d106430db94b474abbfecc16",
+          "namespace": "corydalis",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "1e38b618d106430db94b474abbfecc16",
+            "namespace": "corydalis",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "corydalis",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "Slime Rancher: Secret Style Pack",
+        "unsearchable": false
+      }
+    ],
+    "endOfSupport": false,
+    "entitlementName": "1e38b618d106430db94b474abbfecc16",
+    "entitlementType": "EXECUTABLE",
+    "eulaIds": [
+      "egstore"
+    ],
+    "id": "1e38b618d106430db94b474abbfecc16",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "height": 1440,
+        "md5": "b2f7b22e6d19dff415daf5dbe4d8e78c",
+        "size": 490432,
+        "type": "DieselGameBox",
+        "uploadedDate": "2025-04-17T14:14:19.126Z",
+        "url": "https://cdn1.epicgames.com/item/p-8tda6wz9pfdn5pp8zzqeby3n2gzxeq/slimerancher_wide_2560x1440-b2f7b22e6d19dff415daf5dbe4d8e78c",
+        "width": 2560
+      },
+      {
+        "alt": "Download SlimeRancher Offer",
+        "height": 1600,
+        "md5": "decc92177d094a41c94624c84ce5fa58",
+        "size": 1727210,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2025-04-17T14:15:44.323Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/34f98a406ed74c7f906eacead1570f3c/slimerancher-dyv5f.png",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2025-05-06T21:21:49.692Z",
+    "mainGameItemList": [],
+    "namespace": "corydalis",
+    "releaseInfo": [
+      {
+        "appId": "Corydalis",
+        "compatibleApps": [],
+        "dateAdded": "2019-02-18T00:00:00.000Z",
+        "id": "a1442e62847c40aebd2aab2c422e27ae",
+        "platform": [
+          "Win32",
+          "Windows",
+          "Mac"
+        ],
+        "releaseNote": "",
+        "versionTitle": ""
+      }
+    ],
+    "status": "ACTIVE",
+    "title": "Slime Rancher",
+    "unsearchable": false
+  },
+  "sidecar": null
+}

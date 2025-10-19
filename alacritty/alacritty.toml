@@ -1,0 +1,13 @@
+[font]
+size = 12.0
+normal = { family = "Hack Nerd Font Mono" }
+
+[cursor]
+style = { blinking = "Always" }
+
+[mouse]
+hide_when_typing = true
+
+[window]
+padding = { x = 8, y = 8 }
+decorations = "Full"

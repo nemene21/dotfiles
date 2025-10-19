@@ -1,0 +1,52 @@
+{
+	"The Battle of Polytopia": {
+		"pcgamingwiki": {
+			"steamID": "874390",
+			"howLongToBeatID": "50694",
+			"metacritic": {
+				"score": "",
+				"urlid": ""
+			},
+			"opencritic": {
+				"score": "",
+				"urlid": ""
+			},
+			"igdb": {
+				"score": "",
+				"urlid": ""
+			},
+			"direct3DVersions": [
+				""
+			],
+			"genres": [
+				""
+			],
+			"releaseDate": [
+				"Windows: August 4, 2020",
+				"OS X: August 4, 2020",
+				"Linux: August 4, 2020"
+			]
+		},
+		"applegamingwiki": null,
+		"howlongtobeat": {
+			"mainStory": 1,
+			"mainExtra": 3,
+			"completionist": 13,
+			"gameId": 50694,
+			"gameName": "The Battle of Polytopia",
+			"gameImageUrl": "https://howlongtobeat.com/games/50694_The_Battle_of_Polytopia.jpg",
+			"gameWebLink": "https://howlongtobeat.com/game/50694"
+		},
+		"gamesdb": {
+			"steamID": ""
+		},
+		"steamInfo": {
+			"compatibilityLevel": "platinum",
+			"steamDeckCatagory": 3
+		},
+		"umuId": null
+	},
+	"__timestamp": {
+		"The Battle of Polytopia": "Sat Sep 27 2025 13:49:57 GMT+0200 (Central European Summer Time)"
+	}
+}

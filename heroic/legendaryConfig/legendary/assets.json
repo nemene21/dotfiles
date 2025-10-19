@@ -1,0 +1,199 @@
+{
+  "Windows": [
+    {
+      "app_name": "36cbf259e631478eaac6ea244e55a709",
+      "asset_id": "36cbf259e631478eaac6ea244e55a709",
+      "build_version": "Win64.26186.0",
+      "catalog_item_id": "b4eecf70e3fe4e928b78df7855a3fc2d",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "f512a8e4012243729e4b4d4cedda9b4b"
+      },
+      "namespace": "21916c391ae4425d8f6cce2382aebd0c",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "Crow",
+      "asset_id": "Crow",
+      "build_version": "1.1231387.0.1",
+      "catalog_item_id": "75a5bee8052f4e2498094b2faaea8c11",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "d126ea19b8f14425a4bd77f5fea88e60"
+      },
+      "namespace": "236c74b4cd2e4e3099cbe2ebdc9686fd",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "1f695dfd76d8438d8dd4046fe75daab0",
+      "asset_id": "1f695dfd76d8438d8dd4046fe75daab0",
+      "build_version": "2.0.8",
+      "catalog_item_id": "8360037803f94fca8bbfcf74ee49571f",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "f8f2319e7419421780ad43340f355275"
+      },
+      "namespace": "277788d421e748e580ca0972c339f1a6",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "963137e4c29d4c79a81323b8fab03a40",
+      "asset_id": "963137e4c29d4c79a81323b8fab03a40",
+      "build_version": "6279",
+      "catalog_item_id": "729a86a5146640a2ace9e8c595414c56",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "update_type": "PATCH"
+      },
+      "namespace": "33956bcb55d4452d8c47e16b94e294bd",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "818447bb519b46d48d365d5753362796",
+      "asset_id": "818447bb519b46d48d365d5753362796",
+      "build_version": "1.07.0035",
+      "catalog_item_id": "f08663635fd84c33bfc62ea3bac000e6",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "45e7cf3c49054f2fb20b673d9b0ae69e",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "0a2d9f6403244d12969e11da6713137b",
+      "asset_id": "0a2d9f6403244d12969e11da6713137b",
+      "build_version": "EGS_10932",
+      "catalog_item_id": "38ec4849ea4f4de6aa7b6fb0f2d278e1",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "50118b7f954e450f8823df1614b24e80",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "5ade01bafec54a148024665ce978b2a4",
+      "asset_id": "5ade01bafec54a148024665ce978b2a4",
+      "build_version": "0.0.17-win",
+      "catalog_item_id": "c328481e98e0447cafaf9d3cc60dcbc4",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "643a8667d7a940b8b36094020fcd0dcf",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "9b48cbb1a0cf4a73b87ccbf4cde04b26",
+      "asset_id": "9b48cbb1a0cf4a73b87ccbf4cde04b26",
+      "build_version": "4.3.10-R.130",
+      "catalog_item_id": "15956355c14a4cd19c6b64abfd6f7425",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "66a0893b7b9a42a695f0a387d64dfcc6",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "7786b355a13b47a6b3915335117cd0b2",
+      "asset_id": "7786b355a13b47a6b3915335117cd0b2",
+      "build_version": "50.2.9836",
+      "catalog_item_id": "49c4bf5c6fd24259b87d0bcc96b6009f",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "44a7969a556f4c0184acd4e528bfafe2",
+        "update_type": "PATCH"
+      },
+      "namespace": "6a8dfa6e441e4f2f9048a98776c6077d",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "3d34f303a68c44c2a9b44a3988533e90",
+      "asset_id": "3d34f303a68c44c2a9b44a3988533e90",
+      "build_version": "1.1.2f2",
+      "catalog_item_id": "e55f0dd5f2444c719ab4f4e37fb81d0b",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "1d813b499e3a4e7d966e998bb9c1d56e"
+      },
+      "namespace": "80be39e522204fd0942916d73234d044",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "Sugar",
+      "asset_id": "Sugar",
+      "build_version": "BC2_Update56+497573",
+      "catalog_item_id": "530145df28a24424923f5828cc9031a1",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "9773aa1aa54f4f7b80e44bef04986cea",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "3ce838d7a25c49368a22918b56e88f2a",
+      "asset_id": "3ce838d7a25c49368a22918b56e88f2a",
+      "build_version": "2.14.1.14601",
+      "catalog_item_id": "8325b3ee3dfa48feb553fbe3175d3971",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "b1c4241bfa644d7cbb4348a3c4b00348",
+        "update_type": "PATCH"
+      },
+      "namespace": "c28a4972ae574f27af0304e6ac625009",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "Catnip",
+      "asset_id": "Catnip",
+      "build_version": "1.0.26_CL_3758051_Borderlands_3",
+      "catalog_item_id": "5cf86732e2744fec98a1c8a077d9f3a8",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "4038efbb2b6d4f43b191cd1782f53076"
+      },
+      "namespace": "catnip",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "Corydalis",
+      "asset_id": "Corydalis",
+      "build_version": "1.4.4_Win64_Release_16",
+      "catalog_item_id": "1e38b618d106430db94b474abbfecc16",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "corydalis",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "2420b50453144c07b3b847fff941275d",
+      "asset_id": "2420b50453144c07b3b847fff941275d",
+      "build_version": "2.2.12.202509090925-Windows",
+      "catalog_item_id": "dd9cc5214b904e5e92c5fe664ff2cf14",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "43982f3335e3495c9502ac4c03731438",
+        "update_type": "PATCH"
+      },
+      "namespace": "f672c20984f04f69936e6057feefe3d1",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "Fortnite_Studio",
+      "asset_id": "Fortnite",
+      "build_version": "++Fortnite+Release-37.50-CL-46578011-Windows",
+      "catalog_item_id": "1e8bda5cfbb641b9a9aea8bd62285f73",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "FortniteInstallationPool"
+      },
+      "namespace": "fn",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "Fortnite",
+      "asset_id": "Fortnite",
+      "build_version": "++Fortnite+Release-37.50-CL-46578011-Windows",
+      "catalog_item_id": "4fe75bbc5a674f4f9b356b5c90567da5",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "FortniteInstallationPool"
+      },
+      "namespace": "fn",
+      "sidecar_rev": 0
+    }
+  ]
+}

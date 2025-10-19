@@ -1,0 +1,29 @@
+{
+  "3ce838d7a25c49368a22918b56e88f2a": {
+    "app_name": "3ce838d7a25c49368a22918b56e88f2a",
+    "base_urls": [
+      "https://cloudflare.epicgamescdn.com/Builds/Org/o-2mkf2lxtzafg97txffccjfxmjmj3sb/b312dfc1b33d459daa55a67d53a56223/default",
+      "https://download.epicgames.com/Builds/Org/o-2mkf2lxtzafg97txffccjfxmjmj3sb/b312dfc1b33d459daa55a67d53a56223/default",
+      "https://fastly-download.epicgames.com/Builds/Org/o-2mkf2lxtzafg97txffccjfxmjmj3sb/b312dfc1b33d459daa55a67d53a56223/default",
+      "https://epicgames-download1.akamaized.net/Builds/Org/o-2mkf2lxtzafg97txffccjfxmjmj3sb/b312dfc1b33d459daa55a67d53a56223/default"
+    ],
+    "can_run_offline": true,
+    "egl_guid": "",
+    "executable": "Polytopia.exe",
+    "install_path": "/home/ne_mene/Games/Heroic/TheBattleofPolytopiaACfMZ",
+    "install_size": 234486136,
+    "install_tags": [],
+    "is_dlc": false,
+    "launch_parameters": "",
+    "manifest_path": null,
+    "needs_verification": false,
+    "platform": "Windows",
+    "prereq_info": null,
+    "requires_ot": false,
+    "save_path": null,
+    "save_timestamp": null,
+    "title": "The Battle of Polytopia",
+    "uninstaller": null,
+    "version": "2.14.1.14601"
+  }
+}
