@@ -1,0 +1,34 @@
+{
+	"__timestamp": {
+		"c28a4972ae574f27af0304e6ac625009": "Mon Oct 13 2025 17:49:09 GMT+0200 (Central European Summer Time)"
+	},
+	"c28a4972ae574f27af0304e6ac625009": {
+		"about": {
+			"description": "This is an award winning  strategy game about controlling the map, fighting enemy tribes, discovering new lands and mastering new technologies.  You take on the role as the ruler of a tribe and attempt to build a civilization in a turn based competition with the other tribes.",
+			"shortDescription": ""
+		},
+		"reqs": [
+			{
+				"minimum": "Windows XP SP2",
+				"recommended": "Windows 10",
+				"title": "OS version"
+			},
+			{
+				"minimum": "Dual Core 2.0 Ghz",
+				"recommended": "Dual Core 3.0 Ghz",
+				"title": "CPU"
+			},
+			{
+				"minimum": "1 GB RAM",
+				"recommended": "2 GB RAM",
+				"title": "Memory"
+			},
+			{
+				"minimum": "128mb Video Memory",
+				"recommended": "256mb Video Memory",
+				"title": "GPU"
+			}
+		],
+		"storeUrl": "https://www.epicgames.com/store/product/the-battle-of-polytopia-12fed6"
+	}
+}

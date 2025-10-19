@@ -1,0 +1,161 @@
+{
+	"epic_3ce838d7a25c49368a22918b56e88f2a": {
+		"id": "58956954526094243",
+		"game_id": "58843701115604444",
+		"platform_id": "epic",
+		"external_id": "3ce838d7a25c49368a22918b56e88f2a",
+		"dlcs_ids": [],
+		"dlcs": [],
+		"parent_id": null,
+		"supported_operating_systems": [
+			{
+				"slug": "windows",
+				"name": "Windows"
+			},
+			{
+				"slug": "osx",
+				"name": "macOS"
+			}
+		],
+		"available_languages": [
+			{
+				"code": "en-US"
+			}
+		],
+		"first_release_date": null,
+		"game": {
+			"id": "58843701115604444",
+			"parent_id": null,
+			"dlcs_ids": [],
+			"first_release_date": "2024-03-07T00:00:00+0000",
+			"releases": [
+				{
+					"id": "58956954526094243",
+					"platform_id": "epic",
+					"external_id": "3ce838d7a25c49368a22918b56e88f2a",
+					"release_per_platform_id": "epic_3ce838d7a25c49368a22918b56e88f2a",
+					"availability": 0
+				},
+				{
+					"id": "58843701115604444",
+					"platform_id": "generic",
+					"external_id": "58843701115604444",
+					"release_per_platform_id": "generic_58843701115604444",
+					"availability": 1
+				}
+			],
+			"title": {
+				"*": "The Battle of Polytopia+",
+				"en-US": "The Battle of Polytopia+"
+			},
+			"sorting_title": {
+				"*": "Battle of Polytopia",
+				"en-US": "Battle of Polytopia"
+			},
+			"type": "game",
+			"developers_ids": [],
+			"developers": [],
+			"publishers_ids": [
+				"51930741213271190"
+			],
+			"publishers": [
+				{
+					"id": "51930741213271190",
+					"name": "Midjiwan AB",
+					"slug": "midjiwan-ab"
+				}
+			],
+			"genres_ids": [
+				"51071904346337718"
+			],
+			"genres": [
+				{
+					"id": "51071904346337718",
+					"name": {
+						"*": "Turn-based strategy (TBS)",
+						"en-US": "Turn-based strategy (TBS)"
+					},
+					"slug": "turn-based-strategy-tbs"
+				}
+			],
+			"themes_ids": [
+				"51141225621119374"
+			],
+			"themes": [
+				{
+					"id": "51141225621119374",
+					"name": {
+						"*": "4X (explore, expand, exploit, and exterminate)",
+						"en-US": "4X (explore, expand, exploit, and exterminate)"
+					},
+					"slug": "4x-explore-expand-exploit-and-exterminate"
+				}
+			],
+			"screenshots": [],
+			"videos": [],
+			"artworks": [],
+			"summary": {
+				"*": "This is the apple arcade version of the game. It includes many DLC tribes, but requires a subscription to play.",
+				"en-US": "This is the apple arcade version of the game. It includes many DLC tribes, but requires a subscription to play."
+			},
+			"visible_in_library": true,
+			"aggregated_rating": null,
+			"game_modes": [
+				{
+					"id": "53051895165351137",
+					"name": "Single player",
+					"slug": "single-player"
+				}
+			],
+			"vertical_cover": {
+				"url_format": "https://images.gog.com/48d807261c9f6e2e8b25f314fb20277b419862a8ef5bac5ba080d202308e5e34{formatter}.{ext}?namespace=gamesdb"
+			},
+			"cover": {
+				"url_format": "https://images.gog.com/48d807261c9f6e2e8b25f314fb20277b419862a8ef5bac5ba080d202308e5e34{formatter}.{ext}?namespace=gamesdb"
+			},
+			"logo": {
+				"url_format": "https://images.gog.com/48d807261c9f6e2e8b25f314fb20277b419862a8ef5bac5ba080d202308e5e34{formatter}.{ext}?namespace=gamesdb"
+			},
+			"icon": {
+				"url_format": "https://images.gog.com/48d807261c9f6e2e8b25f314fb20277b419862a8ef5bac5ba080d202308e5e34{formatter}.{ext}?namespace=gamesdb"
+			},
+			"square_icon": {
+				"url_format": "https://images.gog.com/48d807261c9f6e2e8b25f314fb20277b419862a8ef5bac5ba080d202308e5e34{formatter}.{ext}?namespace=gamesdb"
+			},
+			"global_popularity_all_time": 0,
+			"global_popularity_current": 0,
+			"slug": "the-battle-of-polytopia-2024"
+		},
+		"title": {
+			"*": "The Battle of Polytopia",
+			"en-US": "The Battle of Polytopia+"
+		},
+		"sorting_title": {
+			"*": "Battle of Polytopia",
+			"en-US": "Battle of Polytopia"
+		},
+		"type": "game",
+		"summary": {
+			"*": "This is the apple arcade version of the game. It includes many DLC tribes, but requires a subscription to play.",
+			"en-US": "This is the apple arcade version of the game. It includes many DLC tribes, but requires a subscription to play."
+		},
+		"videos": [],
+		"game_modes": [
+			{
+				"id": "53051895165351137",
+				"name": "Single player",
+				"slug": "single-player"
+			}
+		],
+		"icon": {
+			"url_format": "https://images.gog.com/48d807261c9f6e2e8b25f314fb20277b419862a8ef5bac5ba080d202308e5e34{formatter}.{ext}?namespace=gamesdb"
+		},
+		"logo": {
+			"url_format": "https://images.gog.com/48d807261c9f6e2e8b25f314fb20277b419862a8ef5bac5ba080d202308e5e34{formatter}.{ext}?namespace=gamesdb"
+		},
+		"etag": "W/\"85c9b74c3e87e329d90f2aa4ec57d2b8\""
+	},
+	"__timestamp": {
+		"epic_3ce838d7a25c49368a22918b56e88f2a": "Sat Sep 27 2025 13:49:55 GMT+0200 (Central European Summer Time)"
+	}
+}

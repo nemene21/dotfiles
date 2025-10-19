@@ -1,0 +1,76 @@
+{
+	"userHome": "/home/ne_mene",
+	"language": "en",
+	"settings": {
+		"analyticsOptIn": false,
+		"checkUpdatesInterval": 10,
+		"enableUpdates": false,
+		"addDesktopShortcuts": false,
+		"addStartMenuShortcuts": false,
+		"autoInstallDxvk": true,
+		"autoInstallVkd3d": true,
+		"autoInstallDxvkNvapi": true,
+		"addSteamShortcuts": false,
+		"preferSystemLibs": false,
+		"checkForUpdatesOnStartup": true,
+		"autoUpdateGames": false,
+		"customWinePaths": [],
+		"defaultInstallPath": "/home/ne_mene/Games/Heroic",
+		"libraryTopSection": "disabled",
+		"defaultSteamPath": "/home/ne_mene/.steam/steam",
+		"defaultWinePrefix": "/home/ne_mene/Games/Heroic/Prefixes/default",
+		"hideChangelogsOnStartup": false,
+		"language": "en",
+		"maxWorkers": 0,
+		"minimizeOnLaunch": false,
+		"nvidiaPrime": false,
+		"enviromentOptions": [],
+		"wrapperOptions": [],
+		"showFps": false,
+		"useGameMode": false,
+		"wineCrossoverBottle": "Heroic",
+		"winePrefix": "/home/ne_mene/Games/Heroic/Prefixes/default",
+		"wineVersion": {
+			"bin": "/home/ne_mene/.config/heroic/tools/proton/GE-Proton-latest/proton",
+			"name": "Proton - GE-Proton-latest",
+			"type": "proton"
+		},
+		"enableEsync": true,
+		"enableFsync": true,
+		"enableMsync": false,
+		"enableWineWayland": false,
+		"enableHDR": false,
+		"enableWoW64": false,
+		"eacRuntime": true,
+		"battlEyeRuntime": true,
+		"framelessWindow": false,
+		"beforeLaunchScriptPath": "",
+		"afterLaunchScriptPath": "",
+		"disableUMU": false,
+		"verboseLogs": true,
+		"downloadProtonToSteam": false,
+		"advertiseAvxForRosetta": false,
+		"noTrayIcon": false,
+		"showValveProton": false
+	},
+	"userInfo": {
+		"account_id": "3162e0a8c1b54b67ac9e66e8c11977a9",
+		"displayName": "ne_mene",
+		"user": "ne_mene"
+	},
+	"games": {
+		"recent": [
+			{
+				"appName": "3ce838d7a25c49368a22918b56e88f2a",
+				"title": "The Battle of Polytopia"
+			}
+		]
+	},
+	"window-props": {
+		"x": 970,
+		"y": 48,
+		"width": 932,
+		"height": 1134,
+		"maximized": false
+	}
+}

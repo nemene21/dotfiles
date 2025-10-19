@@ -1,0 +1,35 @@
+{
+  "3ce838d7a25c49368a22918b56e88f2a": {
+    "autoInstallDxvk": true,
+    "autoInstallDxvkNvapi": true,
+    "autoInstallVkd3d": true,
+    "preferSystemLibs": false,
+    "enableEsync": true,
+    "enableMsync": false,
+    "enableFsync": true,
+    "enableWineWayland": false,
+    "enableHDR": false,
+    "enableWoW64": false,
+    "nvidiaPrime": false,
+    "enviromentOptions": [],
+    "wrapperOptions": [],
+    "showFps": false,
+    "useGameMode": false,
+    "battlEyeRuntime": true,
+    "eacRuntime": true,
+    "language": "",
+    "beforeLaunchScriptPath": "",
+    "afterLaunchScriptPath": "",
+    "verboseLogs": true,
+    "advertiseAvxForRosetta": false,
+    "wineVersion": {
+      "bin": "/home/ne_mene/.config/heroic/tools/proton/GE-Proton-latest/proton",
+      "name": "Proton - GE-Proton-latest",
+      "type": "proton"
+    },
+    "winePrefix": "/home/ne_mene/Games/Heroic/Prefixes/default/The Battle of Polytopia",
+    "wineCrossoverBottle": ""
+  },
+  "version": "v0",
+  "explicit": true
+}
