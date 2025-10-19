@@ -1,0 +1,105 @@
+#!/usr/bin/env bash
+CONF=~/.config/radio
+CURR="$CONF/.current";
+STAT="$CONF/stations"
+PID="$CONF/.pid"
+
+curr=1
+stat_count=1
+
+# Checking files
+if [[ ! -f "$CURR" ]]; then
+  echo 1 > $CURR
+else
+  curr=$(cat $CURR)
+fi
+
+if [[ ! -f "$STAT" ]]; then
+  echo "Delete this and add radio stations in format: name|stream_link" > $STAT
+  echo "Please configure ""$STAT"
+  exit 0
+
+else
+  stat_count=$(cat $STAT | wc -l)
+fi
+
+silent=false
+
+# Functions
+next () {
+  ((curr++))
+  ((curr > stat_count)) && curr=1
+
+  echo $curr > $CURR
+}
+
+previous () {
+  ((curr--))
+  ((curr < 1)) && curr=$stat_count
+  echo $curr > $CURR
+}
+
+is_alive () {
+  [[ -f "$PID" ]] && kill -0 "$(cat "$PID")" 2>/dev/null
+}
+
+stop () {
+  pid=$(cat $PID)
+  kill $pid
+  rm -fr $PID
+}
+
+rand () {
+  last=$curr
+  while [[ last -eq curr ]]; do
+    curr=$((1 + $RANDOM % stat_count))
+  done
+  echo $curr > $CURR
+}
+
+play () {
+  is_alive && stop
+
+  IN=$(sed "${curr}q;d" $STAT)
+  IFS='|' read -r name link <<< "$IN"
+
+  mpv --really-quiet $link &
+  echo $! > $PID
+  if [[ $silent != true ]]; then
+    echo "📻 ${name}"
+  fi
+}
+
+toggle () {
+  if is_alive; then
+    stop
+  else
+    play
+  fi
+}
+
+get_name () {
+  IN=$(sed "${curr}q;d" $STAT)
+  IFS='|' read -r name link <<< "$IN"
+  echo "$name"
+}
+
+# Flag checks
+for arg in "$@"; do
+  case $arg in
+    -S|--silent) silent=true;
+  esac
+done
+
+for arg in "$@"; do
+  case $arg in
+    -t|--toggle) toggle ;;
+    -k|--kill) is_alive && stop ;;
+    -p|--play) play ;;
+    -r|--play-random) rand; play ;;
+    -s|--station-name) get_name ;;
+    -P|--previous) previous; play ;;
+    -N|--next) next; play ;;
+  esac
+done
+
