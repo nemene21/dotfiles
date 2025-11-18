@@ -1,0 +1,41 @@
+#!/bin/bash
+# mksrc: create C/C++ source and header pair
+
+if [ -z "$1" ]; then
+    echo "Usage: mksrc path/file.c|.cpp"
+    exit 1
+fi
+
+src="$1"
+dir=$(dirname "$src")
+[ "$dir" = "." ] && dir=""
+base=$(basename "$src")
+name="${base%.*}"
+ext="${base##*.}"
+
+if [ "$ext" = "cpp" ]; then
+    header="${dir:+$dir/}$name.hpp"
+else
+    header="${dir:+$dir/}$name.h"
+fi
+
+guard=$(echo "${name^^}_H" | tr -cs 'A-Z0-9_' '_' | sed 's/^_//; s/_$//')
+
+[ -n "$dir" ] && mkdir -p "$dir"
+
+if [ ! -f "$header" ]; then
+cat > "$header" <<EOF
+#ifndef $guard
+#define $guard
+
+#endif // $guard
+EOF
+    echo "Created $header"
+fi
+
+if [ ! -f "$src" ]; then
+cat > "$src" <<EOF
+#include "${name}.${header##*.}"
+EOF
+    echo "Created $src"
+fi

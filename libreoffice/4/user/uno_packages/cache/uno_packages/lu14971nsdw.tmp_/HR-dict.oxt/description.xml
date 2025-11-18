@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2006"  xmlns:xlink="http://www.w3.org/1999/xlink">
+    <version value="2023.09.07" />
+    <identifier value="org.openoffice.hr.hunspell.dictionaries" />
+    <display-name>
+        <name lang="en-US">Croatian spelling dictionary, hyphenation rules and thesaurus</name>
+        <name lang="hr">Hrvatski pravopisni rječnik, pravila rastavljanja riječi i rječnik</name>
+    </display-name>
+    <platform value="all" />
+    <dependencies>
+        <OpenOffice.org-minimal-version value="3.0" d:name="OpenOffice.org 3.0" />
+    </dependencies><icon>
+        <default xlink:href="icons/Croatian-logo.png" />
+    </icon>
+    <dependencies>
+        <OpenOffice.org-minimal-version value="3.0" d:name="BrOffice.org / OpenOffice.org 3.0" />
+    </dependencies>
+    <publisher>
+        <name xlink:href="https://github.com/LibreOffice/dictionaries/tree/master/hr_HR" lang="hr">Rječnik HR</name>
+	<name xlink:href="https://github.com/krunose/hunspell-hr" lang="hr">Rječnik HR / GitHUB</name>
+    </publisher>
+</description>

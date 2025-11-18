@@ -1,5 +1,5 @@
 [font]
-size = 12.0
+size = 14.0
 normal = { family = "Hack Nerd Font Mono" }
 
 [cursor]
@@ -9,5 +9,5 @@ style = { blinking = "Always" }
 hide_when_typing = true
 
 [window]
-padding = { x = 8, y = 8 }
+padding = { x = 0, y = 0 }
 decorations = "Full"
