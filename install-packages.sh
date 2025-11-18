@@ -1,217 +1,217 @@
-sudo pacman -S accountsservice
-sudo pacman -S alacritty
-sudo pacman -S alsa-firmware
-sudo pacman -S alsa-plugins
-sudo pacman -S alsa-utils
-sudo pacman -S amd-ucode
-sudo pacman -S aspell
-sudo pacman -S astroterm
-sudo pacman -S b43-fwcutter
-sudo pacman -S base
-sudo pacman -S base-devel
-sudo pacman -S bash-completion
-sudo pacman -S bc
-sudo pacman -S bind
-sudo pacman -S bluez
-sudo pacman -S bluez-utils
-sudo pacman -S btrfs-progs
-sudo pacman -S cantarell-fonts
-sudo pacman -S cava
-sudo pacman -S chafa
-sudo pacman -S clipman
-sudo pacman -S cloc
-sudo pacman -S cmake
-sudo pacman -S cmatrix
-sudo pacman -S cryptsetup
-sudo pacman -S cups
-sudo pacman -S cups-browsed
-sudo pacman -S cups-filters
-sudo pacman -S cups-pdf
-sudo pacman -S device-mapper
-sudo pacman -S diffutils
-sudo pacman -S dmidecode
-sudo pacman -S dmraid
-sudo pacman -S dnsmasq
-sudo pacman -S dolphin
-sudo pacman -S dosfstools
-sudo pacman -S downgrade
-sudo pacman -S dracut
-sudo pacman -S duf
-sudo pacman -S dunst
-sudo pacman -S e2fsprogs
-sudo pacman -S efibootmgr
-sudo pacman -S efitools
-sudo pacman -S endeavouros-branding
-sudo pacman -S endeavouros-keyring
-sudo pacman -S endeavouros-mirrorlist
-sudo pacman -S eos-apps-info
-sudo pacman -S eos-hooks
-sudo pacman -S eos-log-tool
-sudo pacman -S eos-packagelist
-sudo pacman -S eos-quickstart
-sudo pacman -S eos-rankmirrors
-sudo pacman -S ethtool
-sudo pacman -S exfatprogs
-sudo pacman -S f2fs-tools
-sudo pacman -S ffmpegthumbnailer
-sudo pacman -S firewalld
-sudo pacman -S flameshot
-sudo pacman -S fontforge
-sudo pacman -S foomatic-db
-sudo pacman -S foomatic-db-engine
-sudo pacman -S foomatic-db-gutenprint-ppds
-sudo pacman -S foomatic-db-nonfree
-sudo pacman -S foomatic-db-nonfree-ppds
-sudo pacman -S foomatic-db-ppds
-sudo pacman -S gdb
-sudo pacman -S ghostscript
-sudo pacman -S git
-sudo pacman -S glances
-sudo pacman -S godot
-sudo pacman -S gsfonts
-sudo pacman -S gst-libav
-sudo pacman -S gst-plugin-pipewire
-sudo pacman -S gst-plugins-bad
-sudo pacman -S gst-plugins-ugly
-sudo pacman -S gutenprint
-sudo pacman -S haveged
-sudo pacman -S hdf5
-sudo pacman -S hdparm
-sudo pacman -S heroic-games-launcher-bin
-sudo pacman -S hwdetect
-sudo pacman -S hwinfo
-sudo pacman -S hyprland
-sudo pacman -S hyprpaper
-sudo pacman -S hyprshot
-sudo pacman -S inetutils
-sudo pacman -S inkscape
-sudo pacman -S inxi
-sudo pacman -S iptables-nft
-sudo pacman -S iwd
-sudo pacman -S jfsutils
-sudo pacman -S kernel-install-for-dracut
-sudo pacman -S less
-sudo pacman -S lib32-mesa
-sudo pacman -S lib32-vulkan-intel
-sudo pacman -S libdvdcss
-sudo pacman -S libgsf
-sudo pacman -S libopenraw
-sudo pacman -S libreoffice-still
-sudo pacman -S libwnck3
-sudo pacman -S linux
-sudo pacman -S linux-firmware
-sudo pacman -S linux-headers
-sudo pacman -S linux-lts
-sudo pacman -S linux-lts-headers
-sudo pacman -S logrotate
-sudo pacman -S love
-sudo pacman -S lsb-release
-sudo pacman -S lsscsi
-sudo pacman -S lvm2
-sudo pacman -S man-db
-sudo pacman -S man-pages
-sudo pacman -S mdadm
-sudo pacman -S meld
-sudo pacman -S mesa-utils
-sudo pacman -S modemmanager
-sudo pacman -S mpv
-sudo pacman -S mtools
-sudo pacman -S nano
-sudo pacman -S nano-syntax-highlighting
-sudo pacman -S neofetch
-sudo pacman -S neovim
-sudo pacman -S netctl
-sudo pacman -S networkmanager
-sudo pacman -S networkmanager-openconnect
-sudo pacman -S networkmanager-openvpn
-sudo pacman -S nfs-utils
-sudo pacman -S nilfs-utils
-sudo pacman -S noto-fonts
-sudo pacman -S noto-fonts-cjk
-sudo pacman -S noto-fonts-emoji
-sudo pacman -S noto-fonts-extra
-sudo pacman -S nss-mdns
-sudo pacman -S ntfs-3g
-sudo pacman -S ntp
-sudo pacman -S obs-studio
-sudo pacman -S opencv
-sudo pacman -S openssh
-sudo pacman -S pacman-contrib
-sudo pacman -S parted
-sudo pacman -S pavucontrol
-sudo pacman -S perl
-sudo pacman -S pipes.sh
-sudo pacman -S pipewire-alsa
-sudo pacman -S pipewire-jack
-sudo pacman -S pipewire-pulse
-sudo pacman -S pkgfile
-sudo pacman -S plocate
-sudo pacman -S poppler-glib
-sudo pacman -S power-profiles-daemon
-sudo pacman -S pv
-sudo pacman -S python
-sudo pacman -S python-defusedxml
-sudo pacman -S python-packaging
-sudo pacman -S python-pip
-sudo pacman -S python-pipx
-sudo pacman -S python-pyqt6
-sudo pacman -S qt5-wayland
-sudo pacman -S raylib
-sudo pacman -S rebuild-detector
-sudo pacman -S reflector
-sudo pacman -S reflector-simple
-sudo pacman -S rofi
-sudo pacman -S rsync
-sudo pacman -S rtkit
-sudo pacman -S s-nail
-sudo pacman -S sg3_utils
-sudo pacman -S smartmontools
-sudo pacman -S sof-firmware
-sudo pacman -S splix
-sudo pacman -S steam
-sudo pacman -S sudo
-sudo pacman -S sysfsutils
-sudo pacman -S system-config-printer
-sudo pacman -S systemd-sysvcompat
-sudo pacman -S texinfo
-sudo pacman -S thorium-browser-avx2-bin
-sudo pacman -S thunderbird-bin
-sudo pacman -S tldr
-sudo pacman -S tree
-sudo pacman -S ttf-bitstream-vera
-sudo pacman -S ttf-dejavu
-sudo pacman -S ttf-hack-nerd
-sudo pacman -S ttf-liberation
-sudo pacman -S ttf-opensans
-sudo pacman -S udevil-git
-sudo pacman -S udiskie
-sudo pacman -S unrar
-sudo pacman -S unzip
-sudo pacman -S upower
-sudo pacman -S usb_modeswitch
-sudo pacman -S usbutils
-sudo pacman -S vi
-sudo pacman -S vulkan-intel
-sudo pacman -S vulkan-tools
-sudo pacman -S waybar
-sudo pacman -S welcome
-sudo pacman -S wget
-sudo pacman -S which
-sudo pacman -S wireplumber
-sudo pacman -S wpa_supplicant
-sudo pacman -S xclip
-sudo pacman -S xdg-user-dirs
-sudo pacman -S xdg-utils
-sudo pacman -S xf86-input-libinput
-sudo pacman -S xfsprogs
-sudo pacman -S xl2tpd
-sudo pacman -S xorg-server
-sudo pacman -S xorg-xdpyinfo
-sudo pacman -S xorg-xev
-sudo pacman -S xorg-xinit
-sudo pacman -S xorg-xinput
-sudo pacman -S xorg-xkill
-sudo pacman -S xorg-xrandr
-sudo pacman -S xterm
-sudo pacman -S yay
-sudo pacman -S zoxide
+sudo pacman --noconfirm -S accountsservice
+sudo pacman --noconfirm -S alacritty
+sudo pacman --noconfirm -S alsa-firmware
+sudo pacman --noconfirm -S alsa-plugins
+sudo pacman --noconfirm -S alsa-utils
+sudo pacman --noconfirm -S amd-ucode
+sudo pacman --noconfirm -S aspell
+sudo pacman --noconfirm -S astroterm
+sudo pacman --noconfirm -S b43-fwcutter
+sudo pacman --noconfirm -S base
+sudo pacman --noconfirm -S base-devel
+sudo pacman --noconfirm -S bash-completion
+sudo pacman --noconfirm -S bc
+sudo pacman --noconfirm -S bind
+sudo pacman --noconfirm -S bluez
+sudo pacman --noconfirm -S bluez-utils
+sudo pacman --noconfirm -S btrfs-progs
+sudo pacman --noconfirm -S cantarell-fonts
+sudo pacman --noconfirm -S cava
+sudo pacman --noconfirm -S chafa
+sudo pacman --noconfirm -S clipman
+sudo pacman --noconfirm -S cloc
+sudo pacman --noconfirm -S cmake
+sudo pacman --noconfirm -S cmatrix
+sudo pacman --noconfirm -S cryptsetup
+sudo pacman --noconfirm -S cups
+sudo pacman --noconfirm -S cups-browsed
+sudo pacman --noconfirm -S cups-filters
+sudo pacman --noconfirm -S cups-pdf
+sudo pacman --noconfirm -S device-mapper
+sudo pacman --noconfirm -S diffutils
+sudo pacman --noconfirm -S dmidecode
+sudo pacman --noconfirm -S dmraid
+sudo pacman --noconfirm -S dnsmasq
+sudo pacman --noconfirm -S dolphin
+sudo pacman --noconfirm -S dosfstools
+sudo pacman --noconfirm -S downgrade
+sudo pacman --noconfirm -S dracut
+sudo pacman --noconfirm -S duf
+sudo pacman --noconfirm -S dunst
+sudo pacman --noconfirm -S e2fsprogs
+sudo pacman --noconfirm -S efibootmgr
+sudo pacman --noconfirm -S efitools
+sudo pacman --noconfirm -S endeavouros-branding
+sudo pacman --noconfirm -S endeavouros-keyring
+sudo pacman --noconfirm -S endeavouros-mirrorlist
+sudo pacman --noconfirm -S eos-apps-info
+sudo pacman --noconfirm -S eos-hooks
+sudo pacman --noconfirm -S eos-log-tool
+sudo pacman --noconfirm -S eos-packagelist
+sudo pacman --noconfirm -S eos-quickstart
+sudo pacman --noconfirm -S eos-rankmirrors
+sudo pacman --noconfirm -S ethtool
+sudo pacman --noconfirm -S exfatprogs
+sudo pacman --noconfirm -S f2fs-tools
+sudo pacman --noconfirm -S ffmpegthumbnailer
+sudo pacman --noconfirm -S firewalld
+sudo pacman --noconfirm -S flameshot
+sudo pacman --noconfirm -S fontforge
+sudo pacman --noconfirm -S foomatic-db
+sudo pacman --noconfirm -S foomatic-db-engine
+sudo pacman --noconfirm -S foomatic-db-gutenprint-ppds
+sudo pacman --noconfirm -S foomatic-db-nonfree
+sudo pacman --noconfirm -S foomatic-db-nonfree-ppds
+sudo pacman --noconfirm -S foomatic-db-ppds
+sudo pacman --noconfirm -S gdb
+sudo pacman --noconfirm -S ghostscript
+sudo pacman --noconfirm -S git
+sudo pacman --noconfirm -S glances
+sudo pacman --noconfirm -S godot
+sudo pacman --noconfirm -S gsfonts
+sudo pacman --noconfirm -S gst-libav
+sudo pacman --noconfirm -S gst-plugin-pipewire
+sudo pacman --noconfirm -S gst-plugins-bad
+sudo pacman --noconfirm -S gst-plugins-ugly
+sudo pacman --noconfirm -S gutenprint
+sudo pacman --noconfirm -S haveged
+sudo pacman --noconfirm -S hdf5
+sudo pacman --noconfirm -S hdparm
+sudo pacman --noconfirm -S heroic-games-launcher-bin
+sudo pacman --noconfirm -S hwdetect
+sudo pacman --noconfirm -S hwinfo
+sudo pacman --noconfirm -S hyprland
+sudo pacman --noconfirm -S hyprpaper
+sudo pacman --noconfirm -S hyprshot
+sudo pacman --noconfirm -S inetutils
+sudo pacman --noconfirm -S inkscape
+sudo pacman --noconfirm -S inxi
+sudo pacman --noconfirm -S iptables-nft
+sudo pacman --noconfirm -S iwd
+sudo pacman --noconfirm -S jfsutils
+sudo pacman --noconfirm -S kernel-install-for-dracut
+sudo pacman --noconfirm -S less
+sudo pacman --noconfirm -S lib32-mesa
+sudo pacman --noconfirm -S lib32-vulkan-intel
+sudo pacman --noconfirm -S libdvdcss
+sudo pacman --noconfirm -S libgsf
+sudo pacman --noconfirm -S libopenraw
+sudo pacman --noconfirm -S libreoffice-still
+sudo pacman --noconfirm -S libwnck3
+sudo pacman --noconfirm -S linux
+sudo pacman --noconfirm -S linux-firmware
+sudo pacman --noconfirm -S linux-headers
+sudo pacman --noconfirm -S linux-lts
+sudo pacman --noconfirm -S linux-lts-headers
+sudo pacman --noconfirm -S logrotate
+sudo pacman --noconfirm -S love
+sudo pacman --noconfirm -S lsb-release
+sudo pacman --noconfirm -S lsscsi
+sudo pacman --noconfirm -S lvm2
+sudo pacman --noconfirm -S man-db
+sudo pacman --noconfirm -S man-pages
+sudo pacman --noconfirm -S mdadm
+sudo pacman --noconfirm -S meld
+sudo pacman --noconfirm -S mesa-utils
+sudo pacman --noconfirm -S modemmanager
+sudo pacman --noconfirm -S mpv
+sudo pacman --noconfirm -S mtools
+sudo pacman --noconfirm -S nano
+sudo pacman --noconfirm -S nano-syntax-highlighting
+sudo pacman --noconfirm -S neofetch
+sudo pacman --noconfirm -S neovim
+sudo pacman --noconfirm -S netctl
+sudo pacman --noconfirm -S networkmanager
+sudo pacman --noconfirm -S networkmanager-openconnect
+sudo pacman --noconfirm -S networkmanager-openvpn
+sudo pacman --noconfirm -S nfs-utils
+sudo pacman --noconfirm -S nilfs-utils
+sudo pacman --noconfirm -S noto-fonts
+sudo pacman --noconfirm -S noto-fonts-cjk
+sudo pacman --noconfirm -S noto-fonts-emoji
+sudo pacman --noconfirm -S noto-fonts-extra
+sudo pacman --noconfirm -S nss-mdns
+sudo pacman --noconfirm -S ntfs-3g
+sudo pacman --noconfirm -S ntp
+sudo pacman --noconfirm -S obs-studio
+sudo pacman --noconfirm -S opencv
+sudo pacman --noconfirm -S openssh
+sudo pacman --noconfirm -S pacman-contrib
+sudo pacman --noconfirm -S parted
+sudo pacman --noconfirm -S pavucontrol
+sudo pacman --noconfirm -S perl
+sudo pacman --noconfirm -S pipes.sh
+sudo pacman --noconfirm -S pipewire-alsa
+sudo pacman --noconfirm -S pipewire-jack
+sudo pacman --noconfirm -S pipewire-pulse
+sudo pacman --noconfirm -S pkgfile
+sudo pacman --noconfirm -S plocate
+sudo pacman --noconfirm -S poppler-glib
+sudo pacman --noconfirm -S power-profiles-daemon
+sudo pacman --noconfirm -S pv
+sudo pacman --noconfirm -S python
+sudo pacman --noconfirm -S python-defusedxml
+sudo pacman --noconfirm -S python-packaging
+sudo pacman --noconfirm -S python-pip
+sudo pacman --noconfirm -S python-pipx
+sudo pacman --noconfirm -S python-pyqt6
+sudo pacman --noconfirm -S qt5-wayland
+sudo pacman --noconfirm -S raylib
+sudo pacman --noconfirm -S rebuild-detector
+sudo pacman --noconfirm -S reflector
+sudo pacman --noconfirm -S reflector-simple
+sudo pacman --noconfirm -S rofi
+sudo pacman --noconfirm -S rsync
+sudo pacman --noconfirm -S rtkit
+sudo pacman --noconfirm -S s-nail
+sudo pacman --noconfirm -S sg3_utils
+sudo pacman --noconfirm -S smartmontools
+sudo pacman --noconfirm -S sof-firmware
+sudo pacman --noconfirm -S splix
+sudo pacman --noconfirm -S steam
+sudo pacman --noconfirm -S sudo
+sudo pacman --noconfirm -S sysfsutils
+sudo pacman --noconfirm -S system-config-printer
+sudo pacman --noconfirm -S systemd-sysvcompat
+sudo pacman --noconfirm -S texinfo
+sudo pacman --noconfirm -S thorium-browser-avx2-bin
+sudo pacman --noconfirm -S thunderbird-bin
+sudo pacman --noconfirm -S tldr
+sudo pacman --noconfirm -S tree
+sudo pacman --noconfirm -S ttf-bitstream-vera
+sudo pacman --noconfirm -S ttf-dejavu
+sudo pacman --noconfirm -S ttf-hack-nerd
+sudo pacman --noconfirm -S ttf-liberation
+sudo pacman --noconfirm -S ttf-opensans
+sudo pacman --noconfirm -S udevil-git
+sudo pacman --noconfirm -S udiskie
+sudo pacman --noconfirm -S unrar
+sudo pacman --noconfirm -S unzip
+sudo pacman --noconfirm -S upower
+sudo pacman --noconfirm -S usb_modeswitch
+sudo pacman --noconfirm -S usbutils
+sudo pacman --noconfirm -S vi
+sudo pacman --noconfirm -S vulkan-intel
+sudo pacman --noconfirm -S vulkan-tools
+sudo pacman --noconfirm -S waybar
+sudo pacman --noconfirm -S welcome
+sudo pacman --noconfirm -S wget
+sudo pacman --noconfirm -S which
+sudo pacman --noconfirm -S wireplumber
+sudo pacman --noconfirm -S wpa_supplicant
+sudo pacman --noconfirm -S xclip
+sudo pacman --noconfirm -S xdg-user-dirs
+sudo pacman --noconfirm -S xdg-utils
+sudo pacman --noconfirm -S xf86-input-libinput
+sudo pacman --noconfirm -S xfsprogs
+sudo pacman --noconfirm -S xl2tpd
+sudo pacman --noconfirm -S xorg-server
+sudo pacman --noconfirm -S xorg-xdpyinfo
+sudo pacman --noconfirm -S xorg-xev
+sudo pacman --noconfirm -S xorg-xinit
+sudo pacman --noconfirm -S xorg-xinput
+sudo pacman --noconfirm -S xorg-xkill
+sudo pacman --noconfirm -S xorg-xrandr
+sudo pacman --noconfirm -S xterm
+sudo pacman --noconfirm -S yay
+sudo pacman --noconfirm -S zoxide
