@@ -1,0 +1,3 @@
+clear
+anifetch -C -W 58 -H 42 -r 6 cross.mp4
+exec bash

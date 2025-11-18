@@ -1,3 +1,0 @@
-name=$(basename $1)
-guard=$(echo ${name^^} | tr '.' '_')
-echo -e "#ifndef ${guard}\n#define ${guard}\n\n#endif" > $1

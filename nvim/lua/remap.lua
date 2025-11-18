@@ -22,6 +22,7 @@ vim.keymap.set("n", "<leader>s", function()
   print("no files to swap to")
 end)
 
+-- Fuzzy finder
 local builtin = require("telescope.builtin")
 vim.keymap.set("n", "<leader>f", builtin.find_files)
 
@@ -29,8 +30,19 @@ vim.keymap.set("n", "<leader>w", ":w<CR>")
 
 vim.keymap.set("i", "jj", "<Esc>")
 
-vim.keymap.set({"n", "o"}, "W", "$")
-vim.keymap.set({"n", "o"}, "B", "^")
+vim.keymap.set({"n", "o", "v"}, "W", "$")
+vim.keymap.set({"n", "o", "v"}, "B", "^")
+
+vim.keymap.set("n", "ge", vim.diagnostic.goto_next)
+vim.keymap.set("n", "gE", vim.diagnostic.goto_prev)
+
+-- Python : next line
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = {"python"},
+  callback = function()
+    vim.keymap.set("i", ":", ":<Esc>o")
+  end
+})
 
 -- For nice pageup/down scrolling
 vim.keymap.set("n", "<C-d>", function()
@@ -54,6 +66,7 @@ local function clike_branch(keyword)
   vim.keymap.set("i", keyword.."<Tab>", keyword.." () {<CR>}<Esc>kwa")
 end
 
+-- C like branching
 vim.api.nvim_create_autocmd("FileType", {
   pattern = {"c", "cpp"},
   callback = function()
@@ -63,6 +76,4 @@ vim.api.nvim_create_autocmd("FileType", {
   end
 })
 
-vim.keymap.set("n", "<leader>o", "o<Esc>k", { noremap = true })
-vim.keymap.set("n", "<leader>O", "O<Esc>j", { noremap = true })
-
+vim.keymap.set("i", "<Tab>", "a<Esc>==$xa")

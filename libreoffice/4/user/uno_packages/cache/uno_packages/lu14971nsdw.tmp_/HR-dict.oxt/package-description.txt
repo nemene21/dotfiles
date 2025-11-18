@@ -1,0 +1,15 @@
+﻿Rječnik za računalnu provjeru pravopisa hrvatskoga jezika Hunspellom i pravila razdvajanja riječi, dodatak za LibreOffice 3.0+
+
+- hr_HR.aff       /  (19.10.2023.)
+- hr_HR.dic       /  (07.09.2023.)
+- hyph_hr_HR.dic  /  (16.10.2012.)
+
+### Autori i doprinositelji ###
+
+Boris Jurić,        (2017.-2018.)
+Mirko Kos,          (2016.-2017.)
+Krunoslav Šebetić,  (2014.-2018.)
+Denis Lackovic,     (http://cvs.linux.hr/spell/), 2003.
+----------- # -----------
+- https://github.com/krunose/hunspell-hr
+- https://github.com/LibreOffice/dictionaries/tree/master/hr_HR

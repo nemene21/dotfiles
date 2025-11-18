@@ -33,17 +33,17 @@ require("lazy").setup({
       require('telescope').setup({
         pickers = {
           find_files = {
-            hidden = true,
-            no_ignore = true,
-            find_command = { "rg", "--files", "--hidden", "--no-ignore", "--glob", "!.git/*" },
+            find_command = { "rg", "--files", "--hidden", "--no-ignore-vcs", "--glob", "!.pio/*" }
           },
         },
         defaults = {
           file_ignore_patterns = {
             "node_modules",
-            "%.lock",       -- ignore *.lock files
-            "%.o",          -- ignore object files
-            "build/",       -- ignore build directory
+            "%.lock",
+            "%.o$",
+            ".pio",
+            ".git",
+            "build/"
           }}})
         end
       },{
@@ -53,7 +53,14 @@ require("lazy").setup({
         "neovim/nvim-lspconfig",
         opts = {},
         config = function()
-          require('lspconfig').lua_ls.setup {
+          local lsp = require('lspconfig')
+          lsp.ols.setup({
+            cmd = { "ols" },      -- ensure this matches your system command
+            filetypes = { "odin" },
+            root_dir = require('lspconfig.util').root_pattern(".git", "."),
+          })
+          lsp.pyright.setup({})
+          lsp.lua_ls.setup {
             settings = {
               Lua = {
                 runtime = {
